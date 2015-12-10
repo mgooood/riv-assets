@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/mgooood/riv-assets/issues"
   },
-  "homepage": "https://github.com/mgooood/riv-assets#readme"
+  "homepage": "https://github.com/mgooood/riv-assets#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-iconfont": "^5.0.1",
+    "gulp-iconfont-css": "^2.0.0"
+  }
 }
