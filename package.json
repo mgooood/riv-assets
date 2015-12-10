@@ -1,0 +1,19 @@
+{
+  "name": "riv-assets",
+  "version": "1.0.0",
+  "description": "building rivium assets such as svgstore and icon fonts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mgooood@github.com/mgooood/riv-assets.git"
+  },
+  "author": "mgooood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgooood/riv-assets/issues"
+  },
+  "homepage": "https://github.com/mgooood/riv-assets#readme"
+}
