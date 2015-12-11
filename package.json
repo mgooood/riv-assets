@@ -1,26 +1,22 @@
 {
-  "name": "riv-assets",
-  "version": "1.0.0",
+  "name": "rivium-ui-shared-assets",
+  "version": "1.0.0-alpha.2",
   "description": "building rivium assets such as svgstore and icon fonts",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "gulp"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://mgooood@github.com/mgooood/riv-assets.git"
+  "publishConfig":{
+    "registry": "http://npm.syseng.bericotechnologies.com/"
   },
   "author": "mgooood",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mgooood/riv-assets/issues"
-  },
-  "homepage": "https://github.com/mgooood/riv-assets#readme",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-consolidate": "^0.1.2",
     "gulp-iconfont": "^5.0.1",
     "gulp-rename": "^1.2.2",
+    "gulp-svgmin": "^1.2.0",
+    "gulp-svgstore": "^5.0.5",
     "lodash": "^3.10.1"
   }
 }
